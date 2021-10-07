@@ -1,3 +1,5 @@
 npm install - instalar dependencia
 
 ionic serve - aciona server
+
+https://ionicframework.com/docs/v3/ionicons/

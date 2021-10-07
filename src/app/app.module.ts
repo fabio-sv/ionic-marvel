@@ -17,6 +17,8 @@ import { Grid } from '../pages/grid/grid';
 import { Character } from '../pages/character/character';
 import { Detail } from '../pages/character/detail/detail';
 
+import { PrimeiraPagina } from '../pages/grid/primeirapagina';
+
 /* SERVIÇO */
 import { Service } from '../providers/service/service';
 
@@ -32,7 +34,8 @@ import { Loading } from "../components/loading/loading";
     Grid, /* add */
     Character,
     Detail,
-    Loading
+    Loading,
+    PrimeiraPagina,
   ],
   imports: [
     ReactiveFormsModule,

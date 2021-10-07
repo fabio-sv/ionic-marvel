@@ -124,34 +124,9 @@ webpackEmptyAsyncContext.id = 154;
 /***/ }),
 
 /***/ 197:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Grid; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var Grid = /** @class */ (function () {
-    function Grid() {
-    }
-    Grid = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'grid',template:/*ion-inline-start:"C:\Workspaces\ionic\ionic-marvel\src\pages\grid\grid.html"*/'<!-- cabeçalho -->\n\n<header></header>\n\n\n\n<ion-header class="header-marvel">\n\n    teste\n\n</ion-header>\n\n\n\n<!-- conteudo -->\n\n<ion-content class="content-marvel">\n\n    <ion-row>\n\n        <ion-col no-padding offset-1 col-10 class="coluna1">\n\n            <ion-row>\n\n                <ion-col col-4 offset-1 class="coluna2">\n\n                    teste 2\n\n                </ion-col>\n\n        \n\n                <ion-col col-4 offset-1 class="coluna3">\n\n                    teste 3\n\n                </ion-col>\n\n            </ion-row>\n\n        </ion-col>\n\n    </ion-row>\n\n\n\n\n\n</ion-content>\n\n\n\n\n\n<!-- conteudo -->\n\n<ion-footer class="footer-marvel">\n\n</ion-footer>'/*ion-inline-end:"C:\Workspaces\ionic\ionic-marvel\src\pages\grid\grid.html"*/,
-        }),
-        __metadata("design:paramtypes", [])
-    ], Grid);
-    return Grid;
-}());
-
-//# sourceMappingURL=grid.js.map
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Workspaces\\ionic\\ionic-marvel\\src\\pages\\grid\\grid.ts'");
 
 /***/ }),
 
@@ -474,11 +449,13 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_social_sharing__ = __webpack_require__(424);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_sqlite__ = __webpack_require__(425);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_character_character__ = __webpack_require__(334);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_character_detail_detail__ = __webpack_require__(336);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_service_service__ = __webpack_require__(335);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_provider__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_loading_loading__ = __webpack_require__(430);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_grid_primeirapagina__ = __webpack_require__(430);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_service_service__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_provider__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_loading_loading__ = __webpack_require__(431);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -502,6 +479,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 /* SERVIÇO */
 
 /* PROVIDERS */
@@ -515,10 +493,11 @@ var AppModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_4__angular_core__["NgModule"])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__["a" /* Grid */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__["Grid"],
                 __WEBPACK_IMPORTED_MODULE_14__pages_character_character__["a" /* Character */],
                 __WEBPACK_IMPORTED_MODULE_15__pages_character_detail_detail__["a" /* Detail */],
-                __WEBPACK_IMPORTED_MODULE_18__components_loading_loading__["a" /* Loading */]
+                __WEBPACK_IMPORTED_MODULE_19__components_loading_loading__["a" /* Loading */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_grid_primeirapagina__["a" /* PrimeiraPagina */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__angular_forms__["e" /* ReactiveFormsModule */],
@@ -538,10 +517,10 @@ var AppModule = /** @class */ (function () {
             bootstrap: [__WEBPACK_IMPORTED_MODULE_5_ionic_angular__["a" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__["a" /* Grid */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__["Grid"],
                 __WEBPACK_IMPORTED_MODULE_14__pages_character_character__["a" /* Character */],
                 __WEBPACK_IMPORTED_MODULE_15__pages_character_detail_detail__["a" /* Detail */],
-                __WEBPACK_IMPORTED_MODULE_18__components_loading_loading__["a" /* Loading */]
+                __WEBPACK_IMPORTED_MODULE_19__components_loading_loading__["a" /* Loading */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */],
@@ -552,8 +531,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_12__ionic_native_sqlite__["a" /* SQLite */],
                 Screen,
                 { provide: __WEBPACK_IMPORTED_MODULE_4__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_5_ionic_angular__["b" /* IonicErrorHandler */] },
-                __WEBPACK_IMPORTED_MODULE_17__providers_provider__["a" /* Provider */],
-                __WEBPACK_IMPORTED_MODULE_16__providers_service_service__["a" /* Service */]
+                __WEBPACK_IMPORTED_MODULE_18__providers_provider__["a" /* Provider */],
+                __WEBPACK_IMPORTED_MODULE_17__providers_service_service__["a" /* Service */]
             ]
         })
     ], AppModule);
@@ -574,6 +553,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_grid_grid__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_grid_grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__pages_grid_grid__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -592,7 +572,7 @@ var MyApp = /** @class */ (function () {
     function MyApp(platform, statusBar, splashScreen) {
         this.platform = platform;
         // rootPage:any = Character;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_grid_grid__["a" /* Grid */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_grid_grid__["Grid"];
         this.platform.ready().then(function () {
             if (platform.is("ios")) {
                 statusBar.styleDefault();
@@ -1216,6 +1196,66 @@ var Pagination = /** @class */ (function () {
 /***/ }),
 
 /***/ 430:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrimeiraPagina; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PrimeiraPagina = /** @class */ (function () {
+    function PrimeiraPagina() {
+        this.segment = '0';
+        this.pessoa = {
+            nome: '',
+            sexo: 'M',
+            data: new Date(),
+            rg: '',
+            cpf: ''
+        };
+        this.opcoes = [
+            { valor: 'M', descricao: 'Masculino' },
+            { valor: 'F', descricao: 'Feminino' },
+        ];
+    }
+    PrimeiraPagina.prototype.limpar = function () {
+        console.log("limpar");
+        this.pessoa = {
+            nome: '',
+            sexo: 'M',
+            data: new Date(),
+            rg: '',
+            cpf: ''
+        };
+    };
+    PrimeiraPagina.prototype.salvar = function () {
+        console.log("salvar");
+    };
+    PrimeiraPagina.prototype.change = function () {
+        console.log("segment");
+    };
+    PrimeiraPagina = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'primeirapagina',template:/*ion-inline-start:"C:\Workspaces\ionic\ionic-marvel\src\pages\grid\primeirapagina.html"*/'<!-- Cabeçalho -->\n\n<ion-header>\n\n    <ion-row align-items-center>\n\n        <ion-col col-2>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </ion-col>\n\n        <ion-col col-10>\n\n            <h3>Primeira página</h3>\n\n        </ion-col>\n\n    </ion-row>\n\n\n\n    <ion-segment [(ngModel)]="segment" (ionChange)="change($event)">\n\n        <ion-segment-button value="0">\n\n            <ion-label>Dados pessoais</ion-label>\n\n        </ion-segment-button>\n\n        <ion-segment-button value="1">\n\n            <ion-label>Imagens</ion-label>\n\n        </ion-segment-button>\n\n    </ion-segment>\n\n</ion-header>\n\n\n\n<!-- Conteudo -->\n\n<ion-content>\n\n    <ion-grid *ngIf="segment == 0">\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <ion-label stacked>Nome</ion-label>\n\n                <ion-input [(ngModel)]="pessoa.nome"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <ion-label stacked>Sexo</ion-label>\n\n                <ion-select [(ngModel)]="pessoa.sexo" placeholder="Nenhuma opção selecionada">\n\n                    <ion-option *ngFor="let of opcoes" [value]="opcao.valor">\n\n                        {{ opcao.descricao }}\n\n                    </ion-option>\n\n                </ion-select>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <ion-label stacked>Data Nasc.</ion-label>\n\n                <ion-input type="date" [(ngModel)]="pessoa.data"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-6>\n\n                <ion-label stacked>RG</ion-label>\n\n                <ion-input type="text" [(ngModel)]="pessoa.rg"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-6>\n\n                <ion-label stacked>CPF</ion-label>\n\n                <ion-input type="text" [(ngModel)]="pessoa.cpf"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <strong>INFORMAÇÕES:</strong><br>\n\n                {{ pessoa.nome }} - {{ pessoa.sexo }} - {{ pessoa.data }} - {{pessoa.rg }} - {{ pessoa.cpf }}\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n    <ion-grid *ngIf="segment == 1">\n\n\n\n    </ion-grid>\n\n</ion-content>\n\n\n\n<!-- Rodapé -->\n\n<ion-footer>\n\n    <ion-row align-items-center text-center>\n\n        <ion-col .col-6>\n\n            <button ion-button (click)="limpar()">LIMPAR</button>\n\n        </ion-col>\n\n        <ion-col col-6>\n\n            <button ion-button (click)="salvar()">SALVAR</button>\n\n        </ion-col>\n\n        </ion-col>\n\n    </ion-row>\n\n</ion-footer>'/*ion-inline-end:"C:\Workspaces\ionic\ionic-marvel\src\pages\grid\primeirapagina.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrimeiraPagina);
+    return PrimeiraPagina;
+}());
+
+//# sourceMappingURL=primeirapagina.js.map
+
+/***/ }),
+
+/***/ 431:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

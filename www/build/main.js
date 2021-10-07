@@ -448,14 +448,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_ng2_charts__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_social_sharing__ = __webpack_require__(424);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_sqlite__ = __webpack_require__(425);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_primeirapagina_primeirapagina__ = __webpack_require__(432);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_character_character__ = __webpack_require__(334);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_character_detail_detail__ = __webpack_require__(336);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_grid_primeirapagina__ = __webpack_require__(430);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_service_service__ = __webpack_require__(335);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_provider__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_loading_loading__ = __webpack_require__(431);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_service_service__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_provider__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_loading_loading__ = __webpack_require__(431);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -475,8 +473,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-/* PAGES */
-
 
 
 
@@ -493,11 +489,10 @@ var AppModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_4__angular_core__["NgModule"])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__["Grid"],
                 __WEBPACK_IMPORTED_MODULE_14__pages_character_character__["a" /* Character */],
                 __WEBPACK_IMPORTED_MODULE_15__pages_character_detail_detail__["a" /* Detail */],
-                __WEBPACK_IMPORTED_MODULE_19__components_loading_loading__["a" /* Loading */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_grid_primeirapagina__["a" /* PrimeiraPagina */],
+                __WEBPACK_IMPORTED_MODULE_18__components_loading_loading__["a" /* Loading */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_primeirapagina_primeirapagina__["a" /* PrimeiraPagina */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__angular_forms__["e" /* ReactiveFormsModule */],
@@ -517,10 +512,10 @@ var AppModule = /** @class */ (function () {
             bootstrap: [__WEBPACK_IMPORTED_MODULE_5_ionic_angular__["a" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_grid_grid__["Grid"],
                 __WEBPACK_IMPORTED_MODULE_14__pages_character_character__["a" /* Character */],
                 __WEBPACK_IMPORTED_MODULE_15__pages_character_detail_detail__["a" /* Detail */],
-                __WEBPACK_IMPORTED_MODULE_19__components_loading_loading__["a" /* Loading */]
+                __WEBPACK_IMPORTED_MODULE_18__components_loading_loading__["a" /* Loading */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_primeirapagina_primeirapagina__["a" /* PrimeiraPagina */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */],
@@ -531,8 +526,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_12__ionic_native_sqlite__["a" /* SQLite */],
                 Screen,
                 { provide: __WEBPACK_IMPORTED_MODULE_4__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_5_ionic_angular__["b" /* IonicErrorHandler */] },
-                __WEBPACK_IMPORTED_MODULE_18__providers_provider__["a" /* Provider */],
-                __WEBPACK_IMPORTED_MODULE_17__providers_service_service__["a" /* Service */]
+                __WEBPACK_IMPORTED_MODULE_17__providers_provider__["a" /* Provider */],
+                __WEBPACK_IMPORTED_MODULE_16__providers_service_service__["a" /* Service */]
             ]
         })
     ], AppModule);
@@ -1195,7 +1190,39 @@ var Pagination = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 430:
+/***/ 431:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Loading; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Loading = /** @class */ (function () {
+    function Loading() {
+    }
+    Loading = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: "loading",template:/*ion-inline-start:"C:\Workspaces\ionic\ionic-marvel\src\components\loading\loading.html"*/'<ion-row>\n\n  <ion-col col-12>\n\n    <div align="center" class="g-carregando"> \n\n      <div class="g-carregando-animacao">\n\n        <div class="g-carregando-interno"><div class="g-carregando-bolas g-carregando-bola-vermelha"> </div></div>\n\n        <div class="g-carregando-interno"><div class="g-carregando-bolas g-carregando-bola-verde"> </div></div>\n\n        <div class="g-carregando-interno"><div class="g-carregando-bolas g-carregando-bola-azul"> </div></div>\n\n        <div class="g-carregando-interno"><div class="g-carregando-bolas g-carregando-bola-preta"> </div></div>\n\n      </div>\n\n    </div> \n\n  </ion-col>\n\n</ion-row>'/*ion-inline-end:"C:\Workspaces\ionic\ionic-marvel\src\components\loading\loading.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], Loading);
+    return Loading;
+}());
+
+//# sourceMappingURL=loading.js.map
+
+/***/ }),
+
+/***/ 432:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1244,7 +1271,7 @@ var PrimeiraPagina = /** @class */ (function () {
     };
     PrimeiraPagina = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'primeirapagina',template:/*ion-inline-start:"C:\Workspaces\ionic\ionic-marvel\src\pages\grid\primeirapagina.html"*/'<!-- Cabeçalho -->\n\n<ion-header>\n\n    <ion-row align-items-center>\n\n        <ion-col col-2>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </ion-col>\n\n        <ion-col col-10>\n\n            <h3>Primeira página</h3>\n\n        </ion-col>\n\n    </ion-row>\n\n\n\n    <ion-segment [(ngModel)]="segment" (ionChange)="change($event)">\n\n        <ion-segment-button value="0">\n\n            <ion-label>Dados pessoais</ion-label>\n\n        </ion-segment-button>\n\n        <ion-segment-button value="1">\n\n            <ion-label>Imagens</ion-label>\n\n        </ion-segment-button>\n\n    </ion-segment>\n\n</ion-header>\n\n\n\n<!-- Conteudo -->\n\n<ion-content>\n\n    <ion-grid *ngIf="segment == 0">\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <ion-label stacked>Nome</ion-label>\n\n                <ion-input [(ngModel)]="pessoa.nome"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <ion-label stacked>Sexo</ion-label>\n\n                <ion-select [(ngModel)]="pessoa.sexo" placeholder="Nenhuma opção selecionada">\n\n                    <ion-option *ngFor="let of opcoes" [value]="opcao.valor">\n\n                        {{ opcao.descricao }}\n\n                    </ion-option>\n\n                </ion-select>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <ion-label stacked>Data Nasc.</ion-label>\n\n                <ion-input type="date" [(ngModel)]="pessoa.data"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-6>\n\n                <ion-label stacked>RG</ion-label>\n\n                <ion-input type="text" [(ngModel)]="pessoa.rg"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-6>\n\n                <ion-label stacked>CPF</ion-label>\n\n                <ion-input type="text" [(ngModel)]="pessoa.cpf"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <strong>INFORMAÇÕES:</strong><br>\n\n                {{ pessoa.nome }} - {{ pessoa.sexo }} - {{ pessoa.data }} - {{pessoa.rg }} - {{ pessoa.cpf }}\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n    <ion-grid *ngIf="segment == 1">\n\n\n\n    </ion-grid>\n\n</ion-content>\n\n\n\n<!-- Rodapé -->\n\n<ion-footer>\n\n    <ion-row align-items-center text-center>\n\n        <ion-col .col-6>\n\n            <button ion-button (click)="limpar()">LIMPAR</button>\n\n        </ion-col>\n\n        <ion-col col-6>\n\n            <button ion-button (click)="salvar()">SALVAR</button>\n\n        </ion-col>\n\n        </ion-col>\n\n    </ion-row>\n\n</ion-footer>'/*ion-inline-end:"C:\Workspaces\ionic\ionic-marvel\src\pages\grid\primeirapagina.html"*/
+            selector: 'primeirapagina',template:/*ion-inline-start:"C:\Workspaces\ionic\ionic-marvel\src\pages\primeirapagina\primeirapagina.html"*/'<!-- Cabeçalho -->\n\n<ion-header>\n\n    <ion-row align-items-center>\n\n        <ion-col col-2>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </ion-col>\n\n        <ion-col col-10>\n\n            <h3>Primeira página</h3>\n\n        </ion-col>\n\n    </ion-row>\n\n\n\n    <ion-segment [(ngModel)]="segment" (ionChange)="change($event)">\n\n        <ion-segment-button value="0">\n\n            <ion-label>Dados pessoais</ion-label>\n\n        </ion-segment-button>\n\n        <ion-segment-button value="1">\n\n            <ion-label>Imagens</ion-label>\n\n        </ion-segment-button>\n\n    </ion-segment>\n\n</ion-header>\n\n\n\n<!-- Conteudo -->\n\n<ion-content>\n\n    <ion-grid *ngIf="segment == 0">\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <ion-label stacked>Nome</ion-label>\n\n                <ion-input [(ngModel)]="pessoa.nome"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <ion-label stacked>Sexo</ion-label>\n\n                <ion-select [(ngModel)]="pessoa.sexo" placeholder="Nenhuma opção selecionada">\n\n                    <ion-option *ngFor="let of opcoes" [value]="opcao.valor">\n\n                        {{ opcao.descricao }}\n\n                    </ion-option>\n\n                </ion-select>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <ion-label stacked>Data Nasc.</ion-label>\n\n                <ion-input type="date" [(ngModel)]="pessoa.data"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-6>\n\n                <ion-label stacked>RG</ion-label>\n\n                <ion-input type="text" [(ngModel)]="pessoa.rg"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-6>\n\n                <ion-label stacked>CPF</ion-label>\n\n                <ion-input type="text" [(ngModel)]="pessoa.cpf"></ion-input>\n\n            </ion-col>\n\n\n\n            <ion-col col-12>\n\n                <strong>INFORMAÇÕES:</strong><br>\n\n                {{ pessoa.nome }} - {{ pessoa.sexo }} - {{ pessoa.data }} - {{pessoa.rg }} - {{ pessoa.cpf }}\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n    <ion-grid *ngIf="segment == 1">\n\n\n\n    </ion-grid>\n\n</ion-content>\n\n\n\n<!-- Rodapé -->\n\n<ion-footer>\n\n    <ion-row align-items-center text-center>\n\n        <ion-col .col-6>\n\n            <button ion-button (click)="limpar()">LIMPAR</button>\n\n        </ion-col>\n\n        <ion-col col-6>\n\n            <button ion-button (click)="salvar()">SALVAR</button>\n\n        </ion-col>\n\n        </ion-col>\n\n    </ion-row>\n\n</ion-footer>'/*ion-inline-end:"C:\Workspaces\ionic\ionic-marvel\src\pages\primeirapagina\primeirapagina.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], PrimeiraPagina);
@@ -1252,38 +1279,6 @@ var PrimeiraPagina = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=primeirapagina.js.map
-
-/***/ }),
-
-/***/ 431:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Loading; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var Loading = /** @class */ (function () {
-    function Loading() {
-    }
-    Loading = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: "loading",template:/*ion-inline-start:"C:\Workspaces\ionic\ionic-marvel\src\components\loading\loading.html"*/'<ion-row>\n\n  <ion-col col-12>\n\n    <div align="center" class="g-carregando"> \n\n      <div class="g-carregando-animacao">\n\n        <div class="g-carregando-interno"><div class="g-carregando-bolas g-carregando-bola-vermelha"> </div></div>\n\n        <div class="g-carregando-interno"><div class="g-carregando-bolas g-carregando-bola-verde"> </div></div>\n\n        <div class="g-carregando-interno"><div class="g-carregando-bolas g-carregando-bola-azul"> </div></div>\n\n        <div class="g-carregando-interno"><div class="g-carregando-bolas g-carregando-bola-preta"> </div></div>\n\n      </div>\n\n    </div> \n\n  </ion-col>\n\n</ion-row>'/*ion-inline-end:"C:\Workspaces\ionic\ionic-marvel\src\components\loading\loading.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], Loading);
-    return Loading;
-}());
-
-//# sourceMappingURL=loading.js.map
 
 /***/ })
 

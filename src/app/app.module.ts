@@ -12,12 +12,9 @@ import { ChartsModule } from 'ng2-charts';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { SQLite } from '@ionic-native/sqlite';
 
-/* PAGES */
-import { Grid } from '../pages/grid/grid';
+import { PrimeiraPagina } from '../pages/primeirapagina/primeirapagina';
 import { Character } from '../pages/character/character';
 import { Detail } from '../pages/character/detail/detail';
-
-import { PrimeiraPagina } from '../pages/grid/primeirapagina';
 
 /* SERVIÇO */
 import { Service } from '../providers/service/service';
@@ -31,11 +28,10 @@ import { Loading } from "../components/loading/loading";
 @NgModule({
   declarations: [
     MyApp,
-    Grid, /* add */
     Character,
     Detail,
     Loading,
-    PrimeiraPagina,
+    PrimeiraPagina
   ],
   imports: [
     ReactiveFormsModule,
@@ -56,10 +52,10 @@ import { Loading } from "../components/loading/loading";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    Grid, /* add */
     Character,
     Detail,
-    Loading
+    Loading,
+    PrimeiraPagina
   ],
   providers: [
     StatusBar,
